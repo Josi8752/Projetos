@@ -1,189 +1,161 @@
-
-
-:root{
-    --color-body:#000 ;
-    --color-letter: #fff;
-    --color-letterS: #00ffff;
-    --color-am: #fc2222;
-    --color-grat: #d4abb2;
-    --color-esp: #008000;
- --color-primaveras: #e7ccd1;
-    --color-God:#b5b5e2;
+:root {
+  --color-body: #000;
+  --color-letter: #fff;
+  --color-letterS: #00ffff;
+  --color-am: #fc2222;
+  --color-grat: #d4abb2;
+  --color-esp: #008000;
+  --color-primaveras: #e7ccd1;
+  --color-God: #b5b5e2;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-   
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: var(--color-body) ;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+body {
+  background-color: var(--color-body);
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
-.Primaveras{
-color: var(--color-primaveras);
-margin: 20px 0 0 30px;
-font-size: 18px;
-
+.Primaveras {
+  color: var(--color-primaveras);
+  margin: 20px 0 0 30px;
+  font-size: 18px;
 }
-.color-letter{
-    color: var(--color-letter);
-    margin: 20px 0 0 20px;
-    
-    }
-
-.container{
-  
-    position: absolute;
-    top: 130%;
-    margin-left: 10px;
-   
+.color-letter {
+  color: var(--color-letter);
+  margin: 20px 0 0 20px;
 }
 
-   
- img{
-   width: 180px;
- border-radius: 190px;
- border-style: double;
- 
-   
+.container {
+  position: absolute;
+  top: 160%;
+  margin-left: 20px;
 }
 
-
-.alinhar-assinatura{
-   margin: 10px  5px 0 47px ;
-font-size: 15px;
-
-}
-.lastName{
-    margin: -16px 0 0 126px;
-    font-size: 15px;
-}
-.God{
-    text-transform: uppercase;
-    color: var(--color-God); 
-    font-size: 12px; 
-   
-}
-.saude{
-margin: 10px 0 0 10px;
-
-color: var(--color-letterS);
-text-transform: uppercase;
-font-size: 12px;
+img {
+  width: 180px;
+  margin-left: 30px;
+  border-radius: 190px;
+  border-style: double;
 }
 
-.paz{
-   margin-top: 20px;
-   margin-left: 5px;
+.alinhar-assinatura {
+  margin: 10px 5px 0 47px;
+  font-size: 15px;
+}
+.lastName {
+  margin: -16px 0 0 126px;
+  font-size: 15px;
+}
+.God {
+  text-transform: uppercase;
+  color: var(--color-God);
+  font-size: 12px;
+}
+.saude {
+  margin: 10px 0 0 10px;
+
+  color: var(--color-letterS);
   text-transform: uppercase;
   font-size: 12px;
 }
-.amor{
-    margin: 200px 0 0 -10px;
-    color: var(--color-am);
-    text-transform: uppercase;
-    font-size: 12px;
-}
-.grat{
-    margin: 80px 0 0 100px;
-    color: var(--color-grat);
-    text-transform: uppercase;
-    font-size: 12px;
-}
-.esp{
-   
-    color: var(--color-esp);
-    text-transform: uppercase;
-    font-size: 12px;
-}
-.container-baloes{
-    position: absolute;
-  top: 40%;
-  
-    transform: translate(-10% , 90%);
-    margin-left: 50px;
-}
-.img-baloes{
-    animation: flutuacao 10s
-    ease-in-out infinite;
-   
 
- 
+.paz {
+  margin-top: 20px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.amor {
+  margin: 200px 0 0 -10px;
+  color: var(--color-am);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.grat {
+  margin: 80px 0 0 100px;
+  color: var(--color-grat);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.esp {
+  color: var(--color-esp);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.container-baloes {
+  position: absolute;
+  top: 40%;
+
+  transform: translate(-10%, 90%);
+  margin-left: 50px;
+}
+.img-baloes {
+  animation: flutuacao 10s ease-in-out infinite;
 }
 @keyframes flutuacao {
-    40%, 30% {
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(0px);
-    }
+  40%,
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
 }
 @media (min-width: 720px) {
-   
-    .container img{
-        width:500px ;
-        height:400px ;
-        margin-left: -80px;
-        }
-    
-        .Primaveras{
-           
-            margin: 30px 0 0 280px;
-            font-size: 60px;
-            }
-            .color-letter{
-               
-                margin: 50px 0 0 300px;
-                font-size: 20px;
-                }
-    .alinhar {
-        margin-left: 240px;
-    }
-   
-    .container-baloes{
-       
-        top: 70%;
-        left: 50%;
-        transform: translate(-90% , -40%);
-        margin-left: 140px;
-    }
-    .container{
-       
-        top: 230%;
-      
-    }
+  .container img {
+    width: 500px;
+    height: 400px;
+    margin-left: -80px;
+  }
 
-    .grat{
-        margin: -90px 0 0 180px;
-}
-.esp{
+  .Primaveras {
+    margin: 30px 0 0 280px;
+    font-size: 60px;
+  }
+  .color-letter {
+    margin: 50px 0 0 300px;
+    font-size: 20px;
+  }
+  .alinhar {
+    margin-left: 240px;
+  }
+
+  .container-baloes {
+    top: 70%;
+    left: 50%;
+    transform: translate(-90%, -40%);
+    margin-left: 140px;
+  }
+  .container {
+    top: 230%;
+  }
+
+  .grat {
+    margin: -90px 0 0 180px;
+  }
+  .esp {
     margin: 260px 0 0 90px;
-    
-}
-.paz{
+  }
+  .paz {
     margin: 150px 0 0 -30px;
-}
-.amor{
+  }
+  .amor {
     margin: -130px 0 0 -90px;
-}
-.alinhar-assinatura{
+  }
+  .alinhar-assinatura {
     margin: 20px 0 0 95px;
- font-size: 20px;
- 
- }
- .lastName{
+    font-size: 20px;
+  }
+  .lastName {
     font-size: 20px;
     margin: -22px 0 0 200px;
-    
- }
- .container{
-    
- margin: -400px 0 0 200px;
-    
-}
-
+  }
+  .container {
+    margin: -400px 0 0 200px;
+  }
 }

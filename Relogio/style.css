@@ -1,0 +1,25 @@
+:root{
+    --color-black: #000;
+    --color-white: #fff;
+    --color-ligth: #ababab;
+    --color-purple: #dada;
+
+}
+
+
+*{
+background-color: var(--color-black);
+color: var(--color-white);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+

@@ -2,7 +2,7 @@
     --color-black: #000;
     --color-white: #fff;
     --color-ligth: #ababab;
-    --color-purple: #dada;
+    --color-purple: rgba(207, 80, 207, 0.667);
 
 }
 
@@ -20,6 +20,31 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
+flex-direction: column;
+gap: 16px;
+}
+
+
+.clock{
+display: flex;
+gap: 50px;
+grid-gap: 20px;
 
 }
 
+.clock span{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.clock span:not(:last-child)::after{
+content: ':';
+margin-bottom: 25px;
+color: var(--color-ligth);
+}
+
+h2 strong{
+   color: var(--color-purple);
+}

@@ -30,5 +30,5 @@ Este projeto permite que os usuários insiram um valor em uma moeda de origem, e
 
 1. Clone este repositório em sua máquina local:
    ```bash
-   git clone https://github.com/https://github.com/Josi8752/Projetos/conversor-moedas.git
+   git clone https://github.com/https://github.com/Josi8752/Projetos/ConversorDeMoedas.git
 
